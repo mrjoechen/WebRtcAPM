@@ -1,4 +1,4 @@
-package com.chenqiao.webrtcapm;
+package com.chenqiao.webrtcapm.demo;
 
 import android.content.Context;
 import android.support.test.InstrumentationRegistry;
