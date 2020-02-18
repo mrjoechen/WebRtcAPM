@@ -57,21 +57,20 @@
         android:id="@+id/lb_vad"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
         android:text="VAD状态:"
-        app:layout_constraintBaseline_toBaselineOf="@+id/sw_record"
-        app:layout_constraintStart_toEndOf="@+id/sw_record" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/lb_vad_status"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginLeft="8dp"
-        android:layout_marginStart="8dp"
         android:text="静音"
-        app:layout_constraintBaseline_toBaselineOf="@+id/lb_vad"
-        app:layout_constraintStart_toEndOf="@+id/lb_vad" />
+        app:layout_constraintEnd_toEndOf="@+id/lb_vad"
+        app:layout_constraintStart_toStartOf="@+id/lb_vad"
+        app:layout_constraintTop_toBottomOf="@+id/lb_vad"/>
 
     <Button
         android:id="@+id/bt_agc_ns"
